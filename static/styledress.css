@@ -1,0 +1,64 @@
+.container {
+    height: 1900px;
+    background-color: white;
+    margin: auto;
+    width: 75%;
+    display: block;
+}
+
+.container h1 {
+    font-family: "Satisfy", cursive;
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 5px;
+    font-size: 2.83rem;
+}
+
+.dress {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(90, 9, 9);
+    border-radius: 2px;
+    width: 82%;
+    height: 21%;
+    margin: 30px auto;
+    background-color: rgb(247, 246, 236);
+}
+
+.dress h3 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 12px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(90, 9, 9);
+}
+
+.dress-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dress-img {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dress-img img {
+    border: 2px solid rgb(95, 6, 6);
+    justify-content: center;
+    height: inherit;
+    margin: 5px 9px;
+    padding: 0;
+}
