@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts 
+	script(src='/static/index.js')
+
+block style 
+	style 
+		include ../static/style.css
+
+block content 
+		
+
+		section#introSection 
+			p Welcome to Boys' Dance Academy 
+			p.small Eat Sleep Dance Repeat
+
+		section#missionSection  
+			h2 Our Mission 
+			div.card 
+				h3 Dance Perfection
+				div.card-box
+					div.card-img    
+						img(src="/static/image/card-img1.png")    
+						
+					div.card-content 
+						p Here, we teach dance perfectly. Anyone, can achive a high position from here.
+			
+			div.card 
+				h3 Dance the way you like
+				div.card-box
+					div.card-img
+						img(src="/static/image/card-img2.png")    
+
+					div.card-content 
+						p You can learn dance, as the way you like.	And can find yourself better.
+				
+			div.card 
+				h3 Expert Teaching 		
+				div.card-box
+					div.card-img 
+						img(src="/static/image/card-img3.png")    
+
+					div.card-content 
+						p Expert teachers and full-guidance is available for every type of dance, to make you, the best.
+
+
+		section#sponsorsSection  
+			h2 Our Spnsors
+			div#sponsors 
+				img(src="/static/image/logo1.jpg", alt="Sponsor Image", class="spImage")
+				img(src="/static/image/logo2.jpg", alt="Sponsor Image", class="spImage")
+				img(src="/static/image/logo3.jpg", alt="Sponsor Image", class="spImage")
+				img(src="/static/image/logo4.jpg", alt="Sponsor Image", class="spImage")
+				img(src="/static/image/logo5.jpg", alt="Sponsor Image", class="spImage")
