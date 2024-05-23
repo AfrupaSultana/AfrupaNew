@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts 
+	script(src='/static/index.js')
+
+block style 
+	style 
+		include ../static/style.css
+		include ../static/styleabout.css
+
+block content 
+	div.container
+		h1 About Us
+			p We, Boys' Dance Academy situated at K.N.C. Road, Barasat, Kolkata-700123, have experienced trainers who take dance classes for Bollywood, Hip-Hop, Contemporary etc. Here you can learn dance in an easy, fast, and fun filled way. We keep ourselves up-to-date with mordern methods and ideas of the dancing styles and teaching aids. All our instructors are professionally trained dancers with experience to ensure that learning dance will become fun and exiting. 
+		div.channel 
+				div.channel-img    
+					img(src="/static/image/ytlogo.jpg")    
+				h2 Our You-tube channel has 
+					div.channel-content
+						h3 +5M Viewers
+						h3 +4.5M Subscribers	
+		div.channel 
+				div.channel-img    
+					img(src="/static/image/fblogo.jpg")    
+				h2 Our Facebook page has 
+					div.channel-content
+						h3 +4M Followers
+						h3 +3.5M Subscribers	
+		div.channel 
+				div.channel-img    
+					img(src="/static/image/iglogo.jpg")    
+				h2 Our Instagram page has 
+					div.channel-content
+						h3 +3.2M Followers
+						h3 +2.5M Subscribers	
+		div.channel 
+				div.channel-img    
+					img(src="/static/image/wplogo.jpg")    
+				h2 Our Whatsapp channel has 
+					div.channel-content
+						h3 +4.5M Followers
